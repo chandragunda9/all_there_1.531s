@@ -1,0 +1,62 @@
+Total word count (excluding filtered words): 121154
+
+Top 5 most frequent words:
+1. all: 1513
+2. whale: 1146
+3. not: 1141
+4. one: 907
+5. there: 856
+
+Top 50 unique words (sorted alphabetically):
+1. aback
+2. abaft
+3. abandon
+4. abandoned
+5. abandonedly
+6. abandonment
+7. abased
+8. abasement
+9. abashed
+10. abate
+11. abated
+12. abatement
+13. abating
+14. abbreviate
+15. abbreviation
+16. abeam
+17. abed
+18. abednego
+19. abel
+20. abhorred
+21. abhorrence
+22. abhorrent
+23. abhorring
+24. abide
+25. abided
+26. abiding
+27. ability
+28. abjectly
+29. abjectus
+30. able
+31. ablutions
+32. aboard
+33. abode
+34. abominable
+35. abominate
+36. abominated
+37. abomination
+38. aboriginal
+39. aboriginally
+40. aboriginalness
+41. abortion
+42. abortions
+43. abound
+44. abounded
+45. abounding
+46. aboundingly
+47. abraham
+48. abreast
+49. abridged
+50. abroad
+
+Time required to create the output is 1.531 seconds

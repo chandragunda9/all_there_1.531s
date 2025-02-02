@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TextAnalysisProgram {
 
@@ -82,7 +83,7 @@ public class TextAnalysisProgram {
             List<Map.Entry<String, Integer>> top5Words = wordFreqCountMap.entrySet().stream()
                     .sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))  // Sorting by frequency (descending)
                     .limit(5)  // Get the top 5 words
-                    .toList();
+                    .collect(Collectors.toList());
 
             System.out.println("\nTop 5 most frequent words:");
             for (int i = 0; i < top5Words.size(); i++) {
@@ -90,7 +91,8 @@ public class TextAnalysisProgram {
             }
 
             System.out.println("\nTop 50 unique words (sorted alphabetically):");
-            List<String> sortedUniqueWordList = wordFreqCountMap.keySet().stream().sorted().toList();
+            List<String> sortedUniqueWordList = wordFreqCountMap.keySet().stream().sorted()
+                     .collect(Collectors.toList());
             for (int i = 0; i < Math.min(50, sortedUniqueWordList.size()); i++) {
                 System.out.println((i + 1) + ". " + sortedUniqueWordList.get(i));
             }
